@@ -1,0 +1,20 @@
+{
+    "name": "dmiska1/uebung-einbinden",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Dmiska1\\UebungEinbinden\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "David Miska",
+            "email": "dmiska@schueler.hakzell.at"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "cocur/slugify": "~v4.4.0"
+    }
+}
